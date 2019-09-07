@@ -205,7 +205,7 @@ endif()
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/src)
 
 # LATEX documentation
-add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/doc)
+# add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/doc)
 
 
 if(IS_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/.git/ AND GIT_FOUND)
@@ -407,6 +407,7 @@ if(STATIC_LIB MATCHES "ON")
     if(NOT CMAKE_SYSTEM_NAME MATCHES "Windows")
         set_target_properties(RaptorQ_Static PROPERTIES OUTPUT_NAME RaptorQ.${RQ_ABI})
     endif()
+    target_include_directories(RaptorQ_Static PUBLIC ${EIGEN3_INCLUDE_DIR})
     target_compile_options(
         RaptorQ_Static PRIVATE
         ${CXX_COMPILER_FLAGS}

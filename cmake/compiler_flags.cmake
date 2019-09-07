@@ -28,7 +28,7 @@ string(REPLACE " " ";" RQ_CXX_FLAGS "${CMAKE_CXX_FLAGS}")
 ##############################################
 #### check for UBSAN sanitizing support ######
 ##############################################
-if(CMAKE_BUILD_TYPE MATCHES "Debug")
+if(CMAKE_BUILD_TYPE MATCHES "Debug" AND 0)
     check_c_compiler_flag("-fsanitize=undefined" RQ_FLAG_C_UBSAN)
     check_cxx_compiler_flag("-fsanitize=undefined" RQ_FLAG_CXX_UBSAN)
     if (RQ_FLAG_C_UBSAN AND RQ_FLAG_CXX_UBSAN)
