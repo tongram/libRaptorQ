@@ -1,5 +1,8 @@
-# RaptorQ #
+Use this software at your own risk; consult the DISCLAIMER for more information.
 
+The source code is published under MIT with [libRaptorQ](https://github.com/LucaFulchir/libRaptorQ) and [TON libRaptorQ](https://github.com/ton-blockchain/libRaptorQ) exception, the licenses is available [here](https://github.com/tongram/libRaptorQ/blob/master/LICENSE), [here](https://github.com/tongram/libRaptorQ/blob/master/LICENSE.gpl3.txt) and [here](https://github.com/tongram/libRaptorQ/blob/master/LICENSE.lgpl3.txt).
+
+# RaptorQ #
 
 [![build status](https://www.fenrirproject.org/Luker/libRaptorQ/badges/master/build.svg)](https://www.fenrirproject.org/Luker/libRaptorQ/commits/master)  
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=79L8P7TXWFQK4)
